@@ -67,7 +67,9 @@ Though I have created login system for user but there is no registration process
 
 Some of the places needed to used Eloquent raw query. But we can use the step by method calls for them.
 
-Also need to add more test especially Mock tests.
+Add product and add user module can be created. Otherwise for the time being can create products directly insert to DB.
+
+Also can add more test especially Mock tests.
 
 We can make all process as REST JSON API easily. By trasfering to JSON request and response.
 
