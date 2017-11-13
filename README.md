@@ -37,6 +37,8 @@ Test with `./vendor/bin/phpunit`
 * Copy .env.example to .env then change the .env file as per your settings including database connection
 * Also check the config/database.php for more details database related configuration
 * Run: database migration command from root folder [eg. php artisan migrate:refresh --seed]
+* Run: `chmod 775 .env`
+* Run: `php artisan key:generate`
 * there will be three users:
 * john@test.com [Password: password]
 * laura@test.com [Password: password]
